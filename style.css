@@ -7,6 +7,7 @@ body{
     font-family: sans-serif;
     max-width: 500px;
     height: 100vh;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -121,5 +122,8 @@ a{
     #qr-code img, #qr-code canvas{
         max-width: 95vw !important;
         max-height: 95vw !important;
+    }
+    .btn{
+        min-width: unset;
     }
 }
